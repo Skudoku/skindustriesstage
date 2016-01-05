@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB2FABFD1BE9F01C004FBE4A /* BlessureMeldenPagina.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2FABFC1BE9F01C004FBE4A /* BlessureMeldenPagina.m */; settings = {ASSET_TAGS = (); }; };
+		FB2FAC001BEA1054004FBE4A /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2FABFF1BEA1054004FBE4A /* Contact.m */; settings = {ASSET_TAGS = (); }; };
+		FB385CC01BDF8F0F00DCA089 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB385CBF1BDF8F0F00DCA089 /* main.m */; };
+		FB385CC31BDF8F0F00DCA089 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB385CC21BDF8F0F00DCA089 /* AppDelegate.m */; };
+		FB385CC61BDF8F0F00DCA089 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB385CC51BDF8F0F00DCA089 /* ViewController.m */; };
+		FB385CC91BDF8F0F00DCA089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB385CC71BDF8F0F00DCA089 /* Main.storyboard */; };
+		FB385CCB1BDF8F0F00DCA089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB385CCA1BDF8F0F00DCA089 /* Assets.xcassets */; };
+		FB385CCE1BDF8F0F00DCA089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB385CCC1BDF8F0F00DCA089 /* LaunchScreen.storyboard */; };
+		FB385CD91BDF8F0F00DCA089 /* Fysio_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB385CD81BDF8F0F00DCA089 /* Fysio_ObjCTests.m */; };
+		FB385CE41BDF8F0F00DCA089 /* Fysio_ObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB385CE31BDF8F0F00DCA089 /* Fysio_ObjCUITests.m */; };
+		FB385CF21BDF8FB900DCA089 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB385CF11BDF8FB900DCA089 /* SDWebImage.framework */; settings = {ASSET_TAGS = (); }; };
+		FB385CF51BDF8FCE00DCA089 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB385CF41BDF8FCE00DCA089 /* SWRevealViewController.m */; settings = {ASSET_TAGS = (); }; };
+		FB3AE0001BDFA7D300F537CE /* BackTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3ADFFF1BDFA7D300F537CE /* BackTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		FB3AE0031BDFAC8400F537CE /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3AE0021BDFAC8400F537CE /* Home.m */; settings = {ASSET_TAGS = (); }; };
+		FB3AE0061BDFC05000F537CE /* Profiel.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3AE0051BDFC05000F537CE /* Profiel.m */; settings = {ASSET_TAGS = (); }; };
+		FB3AE0081BDFCF4900F537CE /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3AE0071BDFCF4900F537CE /* ImageIO.framework */; };
+		FB3AE00B1BDFD5E300F537CE /* Tips.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3AE00A1BDFD5E300F537CE /* Tips.m */; settings = {ASSET_TAGS = (); }; };
+		FBC3ED591BE2516D00928064 /* MijnBlessures.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC3ED581BE2516D00928064 /* MijnBlessures.m */; settings = {ASSET_TAGS = (); }; };
+		FBC3ED5C1BE29FB200928064 /* DetailInjuryController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC3ED5B1BE29FB200928064 /* DetailInjuryController.m */; settings = {ASSET_TAGS = (); }; };
+		FBDBD8BF1BE0E8AC00965A15 /* BlessurePagina.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDBD8BE1BE0E8AC00965A15 /* BlessurePagina.m */; settings = {ASSET_TAGS = (); }; };
+		FBDBD8C21BE0EB0E00965A15 /* Tip.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDBD8C11BE0EB0E00965A15 /* Tip.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB385CD51BDF8F0F00DCA089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB385CB31BDF8F0F00DCA089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB385CBA1BDF8F0F00DCA089;
+			remoteInfo = "Fysio-ObjC";
+		};
+		FB385CE01BDF8F0F00DCA089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB385CB31BDF8F0F00DCA089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB385CBA1BDF8F0F00DCA089;
+			remoteInfo = "Fysio-ObjC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB2FABFB1BE9F01C004FBE4A /* BlessureMeldenPagina.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlessureMeldenPagina.h; sourceTree = "<group>"; };
+		FB2FABFC1BE9F01C004FBE4A /* BlessureMeldenPagina.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlessureMeldenPagina.m; sourceTree = "<group>"; };
+		FB2FABFE1BEA1054004FBE4A /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		FB2FABFF1BEA1054004FBE4A /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		FB385CBB1BDF8F0F00DCA089 /* Fysio-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fysio-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB385CBF1BDF8F0F00DCA089 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB385CC11BDF8F0F00DCA089 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB385CC21BDF8F0F00DCA089 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB385CC41BDF8F0F00DCA089 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB385CC51BDF8F0F00DCA089 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB385CC81BDF8F0F00DCA089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB385CCA1BDF8F0F00DCA089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB385CCD1BDF8F0F00DCA089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB385CCF1BDF8F0F00DCA089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB385CD41BDF8F0F00DCA089 /* Fysio-ObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fysio-ObjCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB385CD81BDF8F0F00DCA089 /* Fysio_ObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fysio_ObjCTests.m; sourceTree = "<group>"; };
+		FB385CDA1BDF8F0F00DCA089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB385CDF1BDF8F0F00DCA089 /* Fysio-ObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fysio-ObjCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB385CE31BDF8F0F00DCA089 /* Fysio_ObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fysio_ObjCUITests.m; sourceTree = "<group>"; };
+		FB385CE51BDF8F0F00DCA089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB385CF11BDF8FB900DCA089 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = "<group>"; };
+		FB385CF31BDF8FCE00DCA089 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		FB385CF41BDF8FCE00DCA089 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		FB3ADFFE1BDFA7D300F537CE /* BackTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackTableViewController.h; sourceTree = "<group>"; };
+		FB3ADFFF1BDFA7D300F537CE /* BackTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackTableViewController.m; sourceTree = "<group>"; };
+		FB3AE0011BDFAC8400F537CE /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		FB3AE0021BDFAC8400F537CE /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		FB3AE0041BDFC05000F537CE /* Profiel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profiel.h; sourceTree = "<group>"; };
+		FB3AE0051BDFC05000F537CE /* Profiel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profiel.m; sourceTree = "<group>"; };
+		FB3AE0071BDFCF4900F537CE /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		FB3AE0091BDFD5E300F537CE /* Tips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tips.h; sourceTree = "<group>"; };
+		FB3AE00A1BDFD5E300F537CE /* Tips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tips.m; sourceTree = "<group>"; };
+		FBC3ED571BE2516D00928064 /* MijnBlessures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MijnBlessures.h; sourceTree = "<group>"; };
+		FBC3ED581BE2516D00928064 /* MijnBlessures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MijnBlessures.m; sourceTree = "<group>"; };
+		FBC3ED5A1BE29FB200928064 /* DetailInjuryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailInjuryController.h; sourceTree = "<group>"; };
+		FBC3ED5B1BE29FB200928064 /* DetailInjuryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailInjuryController.m; sourceTree = "<group>"; };
+		FBDBD8BD1BE0E8AC00965A15 /* BlessurePagina.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlessurePagina.h; sourceTree = "<group>"; };
+		FBDBD8BE1BE0E8AC00965A15 /* BlessurePagina.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlessurePagina.m; sourceTree = "<group>"; };
+		FBDBD8C01BE0EB0E00965A15 /* Tip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tip.h; sourceTree = "<group>"; };
+		FBDBD8C11BE0EB0E00965A15 /* Tip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tip.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB385CB81BDF8F0F00DCA089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3AE0081BDFCF4900F537CE /* ImageIO.framework in Frameworks */,
+				FB385CF21BDF8FB900DCA089 /* SDWebImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB385CD11BDF8F0F00DCA089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB385CDC1BDF8F0F00DCA089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB385CB21BDF8F0F00DCA089 = {
+			isa = PBXGroup;
+			children = (
+				FB3AE0071BDFCF4900F537CE /* ImageIO.framework */,
+				FB385CF31BDF8FCE00DCA089 /* SWRevealViewController.h */,
+				FB385CF41BDF8FCE00DCA089 /* SWRevealViewController.m */,
+				FB385CBD1BDF8F0F00DCA089 /* Fysio-ObjC */,
+				FB385CD71BDF8F0F00DCA089 /* Fysio-ObjCTests */,
+				FB385CE21BDF8F0F00DCA089 /* Fysio-ObjCUITests */,
+				FB385CBC1BDF8F0F00DCA089 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB385CBC1BDF8F0F00DCA089 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB385CBB1BDF8F0F00DCA089 /* Fysio-ObjC.app */,
+				FB385CD41BDF8F0F00DCA089 /* Fysio-ObjCTests.xctest */,
+				FB385CDF1BDF8F0F00DCA089 /* Fysio-ObjCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB385CBD1BDF8F0F00DCA089 /* Fysio-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				FB385CF11BDF8FB900DCA089 /* SDWebImage.framework */,
+				FB385CC11BDF8F0F00DCA089 /* AppDelegate.h */,
+				FB385CC21BDF8F0F00DCA089 /* AppDelegate.m */,
+				FBDBD8C01BE0EB0E00965A15 /* Tip.h */,
+				FBDBD8C11BE0EB0E00965A15 /* Tip.m */,
+				FB385CC41BDF8F0F00DCA089 /* ViewController.h */,
+				FB385CC51BDF8F0F00DCA089 /* ViewController.m */,
+				FB3ADFFE1BDFA7D300F537CE /* BackTableViewController.h */,
+				FB3ADFFF1BDFA7D300F537CE /* BackTableViewController.m */,
+				FB3AE0041BDFC05000F537CE /* Profiel.h */,
+				FB3AE0051BDFC05000F537CE /* Profiel.m */,
+				FB3AE0011BDFAC8400F537CE /* Home.h */,
+				FB3AE0021BDFAC8400F537CE /* Home.m */,
+				FB3AE0091BDFD5E300F537CE /* Tips.h */,
+				FB3AE00A1BDFD5E300F537CE /* Tips.m */,
+				FBDBD8BD1BE0E8AC00965A15 /* BlessurePagina.h */,
+				FBDBD8BE1BE0E8AC00965A15 /* BlessurePagina.m */,
+				FBC3ED571BE2516D00928064 /* MijnBlessures.h */,
+				FBC3ED581BE2516D00928064 /* MijnBlessures.m */,
+				FBC3ED5A1BE29FB200928064 /* DetailInjuryController.h */,
+				FBC3ED5B1BE29FB200928064 /* DetailInjuryController.m */,
+				FB2FABFB1BE9F01C004FBE4A /* BlessureMeldenPagina.h */,
+				FB2FABFC1BE9F01C004FBE4A /* BlessureMeldenPagina.m */,
+				FB2FABFE1BEA1054004FBE4A /* Contact.h */,
+				FB2FABFF1BEA1054004FBE4A /* Contact.m */,
+				FB385CC71BDF8F0F00DCA089 /* Main.storyboard */,
+				FB385CCA1BDF8F0F00DCA089 /* Assets.xcassets */,
+				FB385CCC1BDF8F0F00DCA089 /* LaunchScreen.storyboard */,
+				FB385CCF1BDF8F0F00DCA089 /* Info.plist */,
+				FB385CBE1BDF8F0F00DCA089 /* Supporting Files */,
+			);
+			path = "Fysio-ObjC";
+			sourceTree = "<group>";
+		};
+		FB385CBE1BDF8F0F00DCA089 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB385CBF1BDF8F0F00DCA089 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB385CD71BDF8F0F00DCA089 /* Fysio-ObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB385CD81BDF8F0F00DCA089 /* Fysio_ObjCTests.m */,
+				FB385CDA1BDF8F0F00DCA089 /* Info.plist */,
+			);
+			path = "Fysio-ObjCTests";
+			sourceTree = "<group>";
+		};
+		FB385CE21BDF8F0F00DCA089 /* Fysio-ObjCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB385CE31BDF8F0F00DCA089 /* Fysio_ObjCUITests.m */,
+				FB385CE51BDF8F0F00DCA089 /* Info.plist */,
+			);
+			path = "Fysio-ObjCUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB385CBA1BDF8F0F00DCA089 /* Fysio-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB385CE81BDF8F0F00DCA089 /* Build configuration list for PBXNativeTarget "Fysio-ObjC" */;
+			buildPhases = (
+				FB385CB71BDF8F0F00DCA089 /* Sources */,
+				FB385CB81BDF8F0F00DCA089 /* Frameworks */,
+				FB385CB91BDF8F0F00DCA089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fysio-ObjC";
+			productName = "Fysio-ObjC";
+			productReference = FB385CBB1BDF8F0F00DCA089 /* Fysio-ObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB385CD31BDF8F0F00DCA089 /* Fysio-ObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB385CEB1BDF8F0F00DCA089 /* Build configuration list for PBXNativeTarget "Fysio-ObjCTests" */;
+			buildPhases = (
+				FB385CD01BDF8F0F00DCA089 /* Sources */,
+				FB385CD11BDF8F0F00DCA089 /* Frameworks */,
+				FB385CD21BDF8F0F00DCA089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB385CD61BDF8F0F00DCA089 /* PBXTargetDependency */,
+			);
+			name = "Fysio-ObjCTests";
+			productName = "Fysio-ObjCTests";
+			productReference = FB385CD41BDF8F0F00DCA089 /* Fysio-ObjCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB385CDE1BDF8F0F00DCA089 /* Fysio-ObjCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB385CEE1BDF8F0F00DCA089 /* Build configuration list for PBXNativeTarget "Fysio-ObjCUITests" */;
+			buildPhases = (
+				FB385CDB1BDF8F0F00DCA089 /* Sources */,
+				FB385CDC1BDF8F0F00DCA089 /* Frameworks */,
+				FB385CDD1BDF8F0F00DCA089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB385CE11BDF8F0F00DCA089 /* PBXTargetDependency */,
+			);
+			name = "Fysio-ObjCUITests";
+			productName = "Fysio-ObjCUITests";
+			productReference = FB385CDF1BDF8F0F00DCA089 /* Fysio-ObjCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB385CB31BDF8F0F00DCA089 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = RazorBit;
+				TargetAttributes = {
+					FB385CBA1BDF8F0F00DCA089 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 7GC23378C4;
+					};
+					FB385CD31BDF8F0F00DCA089 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FB385CBA1BDF8F0F00DCA089;
+					};
+					FB385CDE1BDF8F0F00DCA089 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FB385CBA1BDF8F0F00DCA089;
+					};
+				};
+			};
+			buildConfigurationList = FB385CB61BDF8F0F00DCA089 /* Build configuration list for PBXProject "Fysio-ObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB385CB21BDF8F0F00DCA089;
+			productRefGroup = FB385CBC1BDF8F0F00DCA089 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB385CBA1BDF8F0F00DCA089 /* Fysio-ObjC */,
+				FB385CD31BDF8F0F00DCA089 /* Fysio-ObjCTests */,
+				FB385CDE1BDF8F0F00DCA089 /* Fysio-ObjCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB385CB91BDF8F0F00DCA089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB385CCE1BDF8F0F00DCA089 /* LaunchScreen.storyboard in Resources */,
+				FB385CCB1BDF8F0F00DCA089 /* Assets.xcassets in Resources */,
+				FB385CC91BDF8F0F00DCA089 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB385CD21BDF8F0F00DCA089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB385CDD1BDF8F0F00DCA089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB385CB71BDF8F0F00DCA089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB385CC61BDF8F0F00DCA089 /* ViewController.m in Sources */,
+				FB3AE00B1BDFD5E300F537CE /* Tips.m in Sources */,
+				FB2FABFD1BE9F01C004FBE4A /* BlessureMeldenPagina.m in Sources */,
+				FB3AE0001BDFA7D300F537CE /* BackTableViewController.m in Sources */,
+				FB2FAC001BEA1054004FBE4A /* Contact.m in Sources */,
+				FB3AE0031BDFAC8400F537CE /* Home.m in Sources */,
+				FB385CC31BDF8F0F00DCA089 /* AppDelegate.m in Sources */,
+				FB385CC01BDF8F0F00DCA089 /* main.m in Sources */,
+				FB3AE0061BDFC05000F537CE /* Profiel.m in Sources */,
+				FB385CF51BDF8FCE00DCA089 /* SWRevealViewController.m in Sources */,
+				FBDBD8C21BE0EB0E00965A15 /* Tip.m in Sources */,
+				FBC3ED591BE2516D00928064 /* MijnBlessures.m in Sources */,
+				FBDBD8BF1BE0E8AC00965A15 /* BlessurePagina.m in Sources */,
+				FBC3ED5C1BE29FB200928064 /* DetailInjuryController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB385CD01BDF8F0F00DCA089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB385CD91BDF8F0F00DCA089 /* Fysio_ObjCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB385CDB1BDF8F0F00DCA089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB385CE41BDF8F0F00DCA089 /* Fysio_ObjCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB385CD61BDF8F0F00DCA089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB385CBA1BDF8F0F00DCA089 /* Fysio-ObjC */;
+			targetProxy = FB385CD51BDF8F0F00DCA089 /* PBXContainerItemProxy */;
+		};
+		FB385CE11BDF8F0F00DCA089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB385CBA1BDF8F0F00DCA089 /* Fysio-ObjC */;
+			targetProxy = FB385CE01BDF8F0F00DCA089 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB385CC71BDF8F0F00DCA089 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB385CC81BDF8F0F00DCA089 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB385CCC1BDF8F0F00DCA089 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB385CCD1BDF8F0F00DCA089 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB385CE61BDF8F0F00DCA089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FB385CE71BDF8F0F00DCA089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB385CE91BDF8F0F00DCA089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Fysio-ObjC",
+				);
+				INFOPLIST_FILE = "Fysio-ObjC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.RazorBit.Fysio-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FB385CEA1BDF8F0F00DCA089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Fysio-ObjC",
+				);
+				INFOPLIST_FILE = "Fysio-ObjC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.RazorBit.Fysio-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FB385CEC1BDF8F0F00DCA089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fysio-ObjCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.RazorBit.Fysio-ObjCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fysio-ObjC.app/Fysio-ObjC";
+			};
+			name = Debug;
+		};
+		FB385CED1BDF8F0F00DCA089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fysio-ObjCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.RazorBit.Fysio-ObjCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fysio-ObjC.app/Fysio-ObjC";
+			};
+			name = Release;
+		};
+		FB385CEF1BDF8F0F00DCA089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Fysio-ObjCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.RazorBit.Fysio-ObjCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Fysio-ObjC";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FB385CF01BDF8F0F00DCA089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Fysio-ObjCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.RazorBit.Fysio-ObjCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Fysio-ObjC";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB385CB61BDF8F0F00DCA089 /* Build configuration list for PBXProject "Fysio-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB385CE61BDF8F0F00DCA089 /* Debug */,
+				FB385CE71BDF8F0F00DCA089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB385CE81BDF8F0F00DCA089 /* Build configuration list for PBXNativeTarget "Fysio-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB385CE91BDF8F0F00DCA089 /* Debug */,
+				FB385CEA1BDF8F0F00DCA089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB385CEB1BDF8F0F00DCA089 /* Build configuration list for PBXNativeTarget "Fysio-ObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB385CEC1BDF8F0F00DCA089 /* Debug */,
+				FB385CED1BDF8F0F00DCA089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB385CEE1BDF8F0F00DCA089 /* Build configuration list for PBXNativeTarget "Fysio-ObjCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB385CEF1BDF8F0F00DCA089 /* Debug */,
+				FB385CF01BDF8F0F00DCA089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB385CB31BDF8F0F00DCA089 /* Project object */;
+}
